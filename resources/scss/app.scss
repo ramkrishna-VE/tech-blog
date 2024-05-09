@@ -1,0 +1,21 @@
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+// Variables
+@import 'variables.scss';
+
+body{
+    font-family: $body-font-family;
+}
+
+.nav-link{
+    font-weight: 500;
+
+    &.active{
+        font-weight: 600;
+        color: $primary !important;
+    }
+}
